@@ -97,7 +97,7 @@
             Google
         </a><br><br>
 
-        <!-- Buat Form dan Select Form-->
+        <!-- Buat Form-->
         <form action="" method="post">
             <label for="name"> Nama : </label>
             <input id="name" type="text"><br>
@@ -109,6 +109,7 @@
             <input type="submit" value="OK">
             <button type="button"> OK Button </button>
             <button type="button" onclick="doSomething();"> Apply </button><br><br>
+
             <!-- Select Form -->
             <p> Apa Warna Favoritmu? </p>
             <select>
@@ -117,6 +118,7 @@
                 <option> Biru </option>
                 <option> Hijau </option>
             </select><br><br>
+
             <!-- Option group -->
             <p> Apa Menu Favoritmu? </p>
             <select>
@@ -128,10 +130,50 @@
                 <optgroup label="Minuman">
                     <option> Es Buah </option>
                     <option> Kopi </option>
-                    <option> Teh </option>
+                    <option selected> Teh </option>
                 </optgroup>
-            </select>
+            </select><br><br>
+
+            <!-- Radio Button -->
+            <input type="radio" id="html" name="fav_language" value="HTML"><label for="html"> HTML </label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS"><label for="css"> CSS </label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript"><label for="javascript"> JavaScript </label><br><br>
+
+            <!-- Field Sets & Legends -->
+            <fieldset>
+                <legend> Data Diri </legend>
+
+                <p>
+                    <label for="nama"> Nama : </label>
+                    <input type="text" name="nama">
+                </p>
+
+                <p>
+                    <label for="usia"> Usia : </label>
+                    <input type="number" name="usia">
+                </p>
+            </fieldset>
         </form><br><br>
 
+        <div> Divisi 1 </div>
+        <div> Divisi 2 </div>
+        <div> Divisi 3 </div><br><br>
+
+        <p> Namaku <span> Puspa </span></p><br>
+
+        <!-- Buat Artikel -->
+        <article>
+            <header>
+                <h1> Header Artikel </h1>
+                <p> Selamat Datang! </p>
+            </header>
+            <main> 
+                <p> Ini Konten Utama, Utama, Utama </p>
+                <p> Ini Konten Kedua </p>
+            </main>
+            <footer> 
+                <p> Finish </p>
+            </footer>
+        </article>
     </body>
 </html>
