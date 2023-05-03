@@ -9,28 +9,56 @@
     <!-- CSS Selector -->
     <style>
         h2{color: orange;}
-        p{color: red;}
+        /* p{color: red;} */
         .mobil{color: blue;}
-        #avanza{color: greenyellow;}
+        #avanza{color: orange;}
 
         /* Attribut Selector */
         /* Dimana style akan digunakan apabila a(link) menggunakan atribut target */
         a[target]{
-            background-color: yellow;
+            background-color: pink;
         }
+
+        /* Menggunakan color */
+        h1{color: rgb(0, 0, 255);}
+        h3{color: #9d18e4;}
+
+        body{
+            background-color: lightgray;
+            background: url("https://i.pinimg.com/736x/9f/4b/f8/9f4bf8d14fd89d3058b2589402aac203.jpg");
+            background-position: left top;
+            background-size: 1280px 720px;
+        }
+
+        /* Font CSS */
+        p{
+            font-family: "Impact", Arial;
+            font-style: italic;
+            text-transform: uppercase;
+            text-decoration: line-through;
+            text-shadow: -4px 4px 4px red;
+            line-height: 50%;
+            letter-spacing: 2px;
+            word-spacing: 4px;
+            text-align: left;
+            text-indent: 2rem;
+        }
+
     </style>
 </head>
 <body>
-
     <!-- Menggunakan css yang ada di bagian head -->
     <h2> Halo </h2>
     <p> Hai </p>
     <p class="mobil" id="avanza"> Ini Avanza </p>
-    <p class="mobil" id="alya"> Ini Alya </p><br>
+    <p class="mobil" id="alya"> Ini Alya </p><br><br>
 
     <!-- Attribut Selector -->
     <a href="https://www.w3schools.com"> w3schools.com </a><br><br>
     <a href="https://www.google.com" target="_blank"> Google.com </a><br><br>
     <a href="https://www.wikipedia.org" target="_top"> wikipedia.org </a><br><br><br>
+
+    <h1> Menggunakan Warna </h1>
+    <h3> Inipun pakai Warna</h3><br>
 </body>
 </html>
