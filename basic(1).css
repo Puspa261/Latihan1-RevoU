@@ -1,0 +1,47 @@
+.container{
+    border: 1.5px solid;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.container > div {
+    padding: 5px;
+    text-align: center;
+    font-size: 14sp;
+    color: black;
+    border: 1px solid;
+    width: 100px;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.content{
+    flex-direction: row;
+    display: flex;
+}
+
+.content > div{
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+}
+
+.content1{
+    padding-left: 70px;
+}
+
+table, th, td{
+    border: 1.5px solid grey;
+    border-collapse: collapse;
+    text-align: center;   
+    width: 700px;
+    padding: 14px;
+}
+
+th{
+    background-color: gainsboro;
+}
